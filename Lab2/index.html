@@ -3,7 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Slider</title>
   </head>
-  <body></body>
+  <body>
+    <div id="slider">
+      <div class="slides fade">
+        <img src="imgs/1.jpeg" alt="jpg1" />
+      </div>
+
+      <div class="slides fade">
+        <img src="imgs/2.jpg" alt="jpg2" />
+      </div>
+
+      <div class="slides fade">
+        <img src="imgs/3.jpg" alt="jpg3" />
+      </div>
+
+      <div class="slides fade">
+        <img src="imgs/4.jpg" alt="jpg4" />
+      </div>
+
+      <div class="slides fade">
+        <img src="imgs/5.jpeg" alt="jpg5" />
+      </div>
+
+      <div id="first">
+        <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+      </div>
+
+      <div id="second">
+        <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </div>
+
+    <div style="text-align: center">
+      <span class="dot active" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <main></main>
+    <script src="main.js"></script>
+  </body>
 </html>
