@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function () {
+  showSlides(slideIndex); // Wywołanie funkcji showSlides przy załadowaniu strony
+});
+
 let slideIndex = 1;
 
 let moveRightInterval = window.setInterval(function () {
