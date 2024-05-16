@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  canvas {
+    display: block;
+    background: #f0f0f0;
+  }
+  
+  #controls {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label, input, button {
+    display: block;
+    margin: 5px 0;
+  }
+  
